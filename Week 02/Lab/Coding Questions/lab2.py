@@ -22,7 +22,7 @@ while flag == 0:
 input("Roll the dice to choose which weapon you must use")
 weaponRoll = random.choice(diceOptions)
 combatRoll = combatStrength + weaponRoll
-print("You rolled the weapon " + weapons[weaponRoll] + "!")
+print("You rolled the weapon " + str(weapons[weaponRoll]) + "!")
 if weaponRoll <= 2:
     print("You rolled a weak weapon, friend")
 elif weaponRoll <= 4:
